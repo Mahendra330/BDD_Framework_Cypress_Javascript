@@ -1,0 +1,33 @@
+{
+  "name": "westwing",
+  "version": "1.0.0",
+  "description": "QA Automation Task for Westwing",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:electron": "cypress run --browser electron",
+    "cy:dashboard-run": "cypress run --record --key a9b811c0-f2a4-4ee3-aa6a-e4e79703e0bd",
+    "cy:MochawesomeReortTest-run": "cypress run --record --key a9b811c0-f2a4-4ee3-aa6a-e4e79703e0bd --reporter mochawesome",
+    "Start-jenkins-service": "java -jar jenkins.war -httpPort=8080 --enable-future-java"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Gherkin",
+    "Cucumber"
+  ],
+  "author": "Mahendra Kumar Barik",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^2.5.2",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

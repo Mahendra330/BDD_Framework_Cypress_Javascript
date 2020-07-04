@@ -1,0 +1,140 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-04T18:10:11.497Z",
+    "end": "2020-07-04T18:12:20.201Z",
+    "duration": 128704,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "03d06458-4ad0-435a-a761-6d266cc4d410",
+      "title": "",
+      "fullFile": "cypress\\integration\\BDD-TEST\\Single_Product.feature",
+      "file": "cypress\\integration\\BDD-TEST\\Single_Product.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e055c67b-ae3a-463d-bb8b-0ae672a3c427",
+          "title": "Product basket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Buying a single product under £30 from Product Category tisch-und-kueche",
+              "fullTitle": "Product basket Buying a single product under £30 from Product Category tisch-und-kueche",
+              "timedOut": null,
+              "duration": 36507,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "2883aadb-9142-4f91-99eb-3d3521b85fef",
+              "parentUUID": "e055c67b-ae3a-463d-bb8b-0ae672a3c427",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Buying a single product above £30 from Product Category Möbel",
+              "fullTitle": "Product basket Buying a single product above £30 from Product Category Möbel",
+              "timedOut": null,
+              "duration": 41590,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f6d668ee-5586-405e-9ae9-080c12355c50",
+              "parentUUID": "e055c67b-ae3a-463d-bb8b-0ae672a3c427",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Buying a single product above £30 from Product Category Textilien & Teppiche",
+              "fullTitle": "Product basket Buying a single product above £30 from Product Category Textilien & Teppiche",
+              "timedOut": null,
+              "duration": 43268,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "dba72bb2-82c3-47ac-a720-e0a998729783",
+              "parentUUID": "e055c67b-ae3a-463d-bb8b-0ae672a3c427",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2883aadb-9142-4f91-99eb-3d3521b85fef",
+            "f6d668ee-5586-405e-9ae9-080c12355c50",
+            "dba72bb2-82c3-47ac-a720-e0a998729783"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 121365,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false
+      },
+      "version": "5.1.0"
+    }
+  }
+}
