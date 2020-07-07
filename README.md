@@ -1,11 +1,10 @@
 # BDD_Framework_Cypress_Javascript
-# QA_Automation_Task_Feature_Test: 
 
-Create a test case for https://www.westwingnow.de that checks that
--if a customer goes on a product category page (e.g. https://www.westwingnow.de/moebel/);
+Create a test case for website that checks that
+-if a customer goes on a product category page;
 -then goes on a product page and puts the product in the cart;
 -then makes sure that
-	- this product can be found in the cart https://www.westwingnow.de/cart/index/
+	- this product can be found in the cart 
 	- the cart icon in the header gets updated and shows a little circle with '1'
 
 Pre Condition:
